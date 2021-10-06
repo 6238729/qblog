@@ -12,8 +12,6 @@ const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {
   return {
-    publicPath: 'qblog',
-    outputDir: 'docs',
     // https://v2.quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
 
